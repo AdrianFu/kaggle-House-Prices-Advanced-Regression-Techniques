@@ -4,6 +4,6 @@ class ExploratoryDataAnalysis:
     #    self.train_val_y = train_val_y
 
     def DuplicatedRows(self):
-        return train_val_X.duplicated()
+        return self.train_val_X.duplicated()
 
 EDA = ExploratoryDataAnalysis()
