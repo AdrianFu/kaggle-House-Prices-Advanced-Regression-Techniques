@@ -8,7 +8,7 @@ class ExploratoryDataAnalysis:
     def DuplicatedRows(self):
         return self.train_val_X.duplicated()
 
-    def cluster_corr(corr_array, inplace=False):
+    def cluster_corr(self, corr_array, inplace=False):
         """
         Rearranges the correlation matrix, corr_array, so that groups of highly
         correlated variables are next to eachother
